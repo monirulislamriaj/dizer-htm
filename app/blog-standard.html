@@ -1,0 +1,30 @@
+@@include('header.htm')
+@@include('blocks/navigation.htm')
+@@include('blocks/page-title-blog.htm', {
+"title": "Our Blog",
+"description": "Dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore et dolore magna aliqua enim ad minim veniam quis."
+})
+
+<section class="section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+            	@@include('blocks/blog-standard.htm')
+            </div>
+            <div class="col-lg-4">
+            	@@include('blocks/blog-sidebar.htm')
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 mt-5">
+                <a href="#" class="btn btn-outline-primary">Load More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Call To action -->
+@@include('blocks/cta.htm')
+<!-- Call To action -->
+
+@@include('blocks/footer.htm')
+@@include('footer.htm')
